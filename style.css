@@ -4,22 +4,27 @@
     box-sizing: border-box;
 }
 
+
 .contenitore{
-  width: 400px;
+  width: 450px;
   margin: auto;
   background-color: white;
   text-align: left;
 }
+
 
 .ml.pl{
     padding-left: 20px;
     margin-top: 40px;
 }
 
+
+/* Logo */
 .logo.text{
     margin-left: 10px;
     margin-bottom: 50px;
 }
+
 
 .logo{
     height: 60px;
@@ -33,6 +38,8 @@
     vertical-align: middle;
     font-size: 45px;  
 }
+/* /Logo */
+
 
 .bottom-blue{
     height: 20px;
@@ -58,8 +65,8 @@
 .categoria{
     margin-bottom: 10px;
     padding-bottom: 10px;
-
 }
+
 
 .carattere{
     font-size: 35px;
@@ -67,11 +74,14 @@
     vertical-align: bottom;
 }
 
+
 .titoletto{
     font-size: 25px;
     font-weight: bold;
 }
 
+
+/* Icone */
 .icona-spunta{
     border: 1px solid green;
     color: green;
@@ -82,12 +92,34 @@
     border-radius: 50%;
 }
 
+
 .spunta{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+.icona-croce{
+    border: 1px solid red;
+    color: red;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+}
+
+
+.croce{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+/* /Icone */
+
 
 .descrizione{
     font-size: 20px;
@@ -96,6 +128,12 @@
     padding-top: 5px;
     padding-left: 3px;
 }
+
+
+.spazio{
+    padding-bottom: 15px;
+}
+
 
 .pillola{
     border-radius: 30px;
@@ -106,7 +144,34 @@
     vertical-align: top;  
 }
 
+
+/* Colori Pillole */
 .blu{
-    background-color: dodgerblue;
-    
+    background-color: dodgerblue;   
 }
+
+
+.viola{
+    background-color: purple;
+}
+
+
+.verde{
+    background-color: darkcyan;
+}
+
+
+.arancione{
+    background-color: darkorange;
+}
+
+
+.rosa{
+    background-color: deeppink;
+}
+
+
+.senape{
+    background-color: olive;
+}
+/* /Colori Pillole */
